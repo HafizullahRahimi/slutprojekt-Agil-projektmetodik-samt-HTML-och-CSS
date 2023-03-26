@@ -1,0 +1,264 @@
+/* Desktop First ******************************/
+/* Desktops (1400px and down) */
+@media (max-width: 1400px) {
+    .container {
+        padding: 0 12%;
+    }
+
+    /* Title */
+    .financial-safety .title {
+        width: 43%;
+    }
+
+    /* Btn Go up --------------------*/
+    .btn-go-up {
+        width: 76%;
+    }
+}
+
+/* Desktops (1200px and down) */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 4%;
+    }
+
+    /* main part-3 */
+    .box {
+        height:30vw;
+    }
+
+    .box h4 {
+        margin-top: -25%;
+    }
+
+    /* Btn Go up --------------------*/
+    .btn-go-up {
+        height: 40px;
+        width: 92%;
+    }
+}
+
+/* Desktops (992px and down) */
+@media (max-width: 992px) {
+    .container {
+        /* background-color: aqua; */
+        padding: 0;
+    }
+
+    /* Title */
+    .financial-safety .title {
+        width: 46%;
+    }
+
+    /* Cards */
+    .financial-safety .cards {
+        padding: 0 1%;
+        /* background-color: #60fa31; */
+    }
+    /* main part-3 */
+    .box {
+        height:33vw;
+    }
+
+    /* Footer Start -------------------------------------------------------*/
+    /* Btn Go up --------------------*/
+    .btn-go-up {
+        width: 100%;
+    }
+}
+
+/* Tablets (768px and down) */
+@media (max-width: 800px) {
+    .button {
+        margin-left: -4%;
+        top:285px;
+    }
+
+    /* Description */
+    .financial-safety .description {
+        width: 40%;
+        /* height: auto; */
+        /* background-color: #fab131; */
+    }
+
+    /* Title */
+    .financial-safety .title {
+        width: 50%;
+    }
+
+    .card:nth-child(3) {
+        display: none;
+    }
+}
+
+/* Tablets (768px and down) */
+@media (max-width: 768px) {
+}
+
+/* Mobile (576px and down) */
+@media (max-width: 576px) {
+    .container {
+        padding: 0;
+    }
+
+    /* Header -------------------------------------------------------*/
+    /* header-top ----------- */
+
+    /* header design */
+    .header-top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+
+    .item1{
+        /* background-color: blue; */
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+
+    .item1 p,
+    .button,
+    .item1 h1 {
+        justify-self: left;
+        margin-left: 1rem;
+    }
+    .item1 p {
+        width: 88%;
+        margin-bottom: 1rem;
+    }
+    .item1 h1 {
+        margin-bottom: 1rem;
+    }
+    .button {
+        position: static; /* resets the position from the earlier absolute */
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .img-family {
+        width: 88%;
+        justify-self: center;
+        margin-top: 1rem;
+    } 
+
+    .item2{
+        /* background-color: rgb(19, 197, 188); */
+        grid-row-start: 3;
+        grid-row-end: 4;
+        min-height: 300px;
+    }
+    .item3{
+        /* background-color: rgb(255, 0, 242); */
+        grid-row-start: 4;
+        grid-row-end: 5;
+        min-height: 300px;
+    } 
+    
+    /* Nav: menu ---------------------*/
+    .menu{
+        /* background-color: brown; */
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .menu ul {
+        margin: 0 ;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .list {
+        height: 80px;
+        /* background-color: #fab131; */
+    }
+
+    .list:nth-child(1){
+        background-color: var(--color-10)!important; 
+    }
+
+
+    /* main ------------------------------------------------------- */
+    /* Part-1: financial-safety -----------------*/
+    .financial-safety {
+        padding: 12% 3%;
+        height: auto;
+    }
+    .financial-safety .title {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+    .title h2 {
+        margin-bottom: 30px;
+    }
+
+    /* Description */
+    .financial-safety .description {
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
+
+    /* Cards */
+    .financial-safety .cards {
+        height: auto;
+        position: relative;
+        bottom: 0;
+        /* padding: 0 6%; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Card */
+    .card {
+        /* width: 100%; */
+        height: 308px;
+        margin-top: 20%;
+    }
+
+    .card:nth-child(3) {
+        display: inline-block;
+    }
+
+    /* part-2: about us -----------------*/
+    .about-us {
+        padding-top: 10%;
+        height: 500px;
+    }
+    .about-us h2 {
+        margin-bottom: 30px;
+    }
+    .about-us p {
+        margin: 0 12%;
+    }
+
+    /* Part-3 : Boxes */
+    .box {
+        width: 100%;
+        height: 35vw;
+    }
+    .box p {
+        font-size: 3vw;
+        min-width: none;
+        width: 30%;
+    }
+    .box h1 {
+        font-size: 6vw;
+        margin-top: -25%;
+        margin-left: 3%;
+    }
+    .box b {
+        font-size: 8vw;
+    }
+
+    /* Footer Start -------------------------------------------------------*/
+    /* Btn Go up --------------------*/
+    .btn-go-up {
+        height: 30px;
+        font-size: 10px;
+    }
+    .btn-go-up p{
+        font-size: 10px;
+    }
+}
+
+
+

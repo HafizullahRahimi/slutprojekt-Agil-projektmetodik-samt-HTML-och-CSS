@@ -1,0 +1,79 @@
+# Projektloggbok 
+
+contact sidan: Hafizullah
+
+___________________________________________________________________________________
+
+index sidan: (Tasks: 18) 
+
+----------------------------------------------------------
+
+### Peter : 3 tasks
+
+2023-01-09:
+
+	1- Planning Task (2023-01-09) med Hafizullah
+
+	2- Header Task (2023-01-09) 
+
+2023-01-10:
+
+	3- Header (Responsive) Task (2023-01-10) 
+
+----------------------------------------------------------
+
+### Simon: 2 tasks
+
+2023-01-09:
+
+	4- Main Part 3 Task (2023-01-09) 
+
+2023-01-10:
+
+	5- Main Part 3 (Responsive) Task (2023-01-10) 
+
+----------------------------------------------------------
+
+### Hafizullah: 13 tasks
+
+2023-01-09:
+
+	1- Planning Task (2023-01-09) med Peter
+
+	6- Base project files Task (2023-01-09) 
+
+	7- Write Tasks ( in Trello) Task (2023-01-09) 
+
+	8- Main Part 1 (financial-safety) Task (2023-01-09) 
+
+	9- Main Part 2 (about-us) Task (2023-01-09) 
+
+2023-01-10:
+
+	10- Nav Task (2023-01-10) 
+
+	11- Footer Task (2023-01-10) 
+
+	12- Main Part 1 (Responsive) Task (2023-01-10) 
+
+	13- Main Part 2 (Responsive) Task (2023-01-10) 
+
+	14- Refactoring  Task (2023-01-10) 
+
+2023-01-11:
+
+	15- Nav (Responsive)  Task (2023-01-11) 
+
+	16- Footer (Responsive)  Task (2023-01-11) 
+
+	17- Responsive For all devices  Task (2023-01-11) 
+
+2023-01-12
+
+	18- Last changes Task (2023-01-12)
+
+
+
+
+
+

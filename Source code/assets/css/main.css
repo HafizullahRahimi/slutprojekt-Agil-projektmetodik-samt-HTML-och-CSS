@@ -1,0 +1,439 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&family=Frank+Ruhl+Libre:wght@900&display=swap');
+
+/* Root */
+:root {
+    /* Colors */
+    --color-1: #ebebeb;
+    --color-2: #000000;
+    --color-3: #a9a19e;
+    --color-4: #fab131;
+    --color-5: #ffffff;
+    --color-6: #f17949;
+    --color-7: #363636;
+    --color-8: #c7ddea;
+    --color-9: #777574;
+    --color-10: #c4c4c4;
+
+    /* --font-15: 15px!important; */
+
+    /* Font family */
+    --font-frank: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
+    --font-fira-sans: 'Fira Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Default Styles ************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-2);
+}
+
+body {
+    font-family: var(--font-fira-sans);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: start; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-frank);
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* a:hover {
+    color: var(--second-color);
+} */
+
+li {
+    list-style: none;
+    /* cursor: pointer; */
+}
+
+.container {
+    background-color: var(--color-1);
+    width: 100%;
+    padding: 0 14%;
+}
+
+/* Header Start --------------------------------------------------*/
+header {
+    width: 100%;
+}
+
+.paragraph-change,
+.item2 h3,
+.item3 h3 {
+    color: var(--color-5);
+}
+
+.header-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 3fr) 1fr;
+    position: relative;
+}
+
+.item1 h1,
+.item2,
+.item3 {
+    letter-spacing: -0.02em;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: var(--color-8);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1 h1 {
+    justify-self: center;
+    width: 18rem;
+}
+
+.item1 p {
+    width: 16rem;
+    justify-self: center;
+    margin-right: 6%;
+    line-height: 24px;
+}
+
+.item1 h1 {
+    font-size: 45px;
+    line-height: 100%;
+    margin-top: 4.4rem;
+    margin-bottom: 0.2rem;
+}
+
+.button {
+    justify-self: center;
+    width: 131px;
+    height: 39px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    margin-left: 1%;
+    top: 326px;
+    margin-right: 17%;
+    font-size: 11px;
+}
+
+.img-family {
+    width: 58%;
+    justify-self: right;
+    margin-right: 1rem;
+}
+
+
+.item2,
+.item3 {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item2 h3,
+.item3 h3 {
+    font-size: 32px;
+    line-height: 41px;
+}
+
+.item2 p,
+.item3 p {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.item1 p,
+.item2 p,
+.item3 p,
+.description p,
+.about-us p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.box p {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.change-box {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* Nav: menu ---------------------*/
+.menu {
+    background-color: var(--color-1);
+    /* background-color: rebeccapurple; */
+    font-size: 12px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+}
+.menu ul {
+    margin: 0 20%;
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.list {
+    /* background-color: #fab131; */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.list a {
+    color: var(--color-3);
+}
+
+/* .list:nth-child(1){
+    background-color: var(--color-10)!important; 
+} */
+.list:nth-child(1) a{
+    color: var(--color-2) !important;
+}
+
+
+
+
+/* Header End --------------------------------------------------*/
+
+/* Main Start --------------------------------------------------*/
+
+/* Part-1: financial-safety -----------------*/
+.financial-safety {
+    width: 100%;
+    height: 612px;
+    background-color: var(--color-3);
+    padding: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Title */
+.financial-safety .title {
+    width: 40%;
+    height: 300px;
+    /* background-color: #fab131; */
+    margin-left: 5%;
+}
+
+.title h2 {
+    color: var(--color-5);
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: var(--color-5);
+    padding: 14px 40px;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+/* Description */
+.financial-safety .description {
+    width: 280px;
+    height: 237px;
+    /* background-color: #fab131; */
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.6;
+    margin-right: 3%;
+}
+
+/* Cards */
+.financial-safety .cards {
+    width: 100%;
+    height: 308px;
+    padding: 0 5%;
+    /* background-color: #60fa31; */
+    position: absolute;
+    bottom: -150px;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Card */
+.card {
+    width: 258px;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 12px;
+    position: relative;
+    box-shadow: #0000002f 0px 4px;
+}
+
+.img-content {
+    width: 236px;
+    height: 150px;
+    /* background-color: var(--color-6); */
+    border-radius: 5px;
+    position: absolute;
+    left: 11px;
+    top: -30px;
+}
+
+.img-content img {
+    width: 110px;
+    height: 95%;
+    margin-top: 3.6%;
+}
+
+.card h3 {
+    margin-top: 150px;
+    /* background-color: aqua; */
+}
+
+.card p {
+    /* background-color: aqua; */
+    font-size: 11px;
+    margin-top: 11px;
+    line-height: 1.6;
+    color: var(--color-3);
+}
+
+.color-1 {
+    background-color: var(--color-8);
+}
+.color-2,
+.item3 {
+    background-color: var(--color-4);
+}
+.color-3,
+.item2 {
+    background-color: var(--color-6);
+}
+/* -------------------------------------------------- */
+
+/* part-2: about us -----------------*/
+.about-us {
+    width: 100%;
+    height: 680px;
+    background-color: var(--color-4);
+    padding-top: 200px;
+    text-align: center;
+}
+
+.about-us h2 {
+    color: var(--color-5);
+    margin-bottom: 40px;
+}
+
+.about-us p {
+    margin: 0 28%;
+}
+/* -------------------------------------------------- */
+
+/* part-3: -----------------------*/
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-5);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    height: 23vw;
+}
+
+.box p {
+    min-width: 100%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.box h4 {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 1%;
+    font-size: 3vw;
+    opacity: 40%;
+}
+
+.box b {
+    font-family: var(--font-frank);
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.blue {
+    background-color: var(--color-8);
+}
+
+.gray {
+    background-color: var(--color-1);
+}
+
+.orange {
+    background-color: var(--color-6);
+}
+
+/* Main End --------------------------------------------------*/
+
+/* Footer Start --------------------------------------------------*/
+
+footer {
+    background-color: var(--color-9);
+    width: 100%;
+    height: 340px;
+}
+
+/* Btn Go up --------------------*/
+.btn-go-up {
+    display: none;
+    width: 72%;
+    height: 68px;
+    background-color: #a9a19e;
+    text-align: center;
+    padding-top: 5px;
+    position: fixed;
+    bottom: 0;
+    /* right: auto; */
+}
+.btn-go-up p {
+    line-height: 0;
+    font-size: 17px;
+}
+.d-active {
+    display: inline-block;
+}
+
+.d-none{
+    display: none;
+}
+
+/* Footer End --------------------------------------------------*/

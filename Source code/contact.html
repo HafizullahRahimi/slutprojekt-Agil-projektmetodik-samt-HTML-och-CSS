@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./assets/css/contact.css" />
+        <!-- <link rel="stylesheet" href="./assets/css/media-queries.css" /> -->
+        <link rel="icon" href="./assets/images/favicon.png" />
+        <title>Contact</title>
+    </head>
+    <body onload="initialize()">
+        <div class="container">
+        <header>
+            <section class="header-top">
+                <h2>Oh hello there!</h2>
+                <img src="./assets/images/man-baby.png" alt="">
+                <!-- Nav -->
+                <nav class="menu">
+                    <ul>
+                        <li class="list "><a href="./index.html" >Home</a></li>
+                        <li class="list"><a href="" >Our offer</a></li>
+                        <li class="list"><a href="#" >Why us</a></li>
+                        <li class="list active-link"><a href="./contact.html" >Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+            <section class="contact-us">
+                <h2>Whats on your mind?</h2>
+                <div class="form">
+                    <form action="">
+                        <div class="email-contant">
+                            <label for="email">Your email</label>
+                            <br>
+                            <input type="email" name="email" id="email" placeholder="Your email">
+                        </div>
+                        <div class="massage-contant">
+                            <label for="massage">Your massage</label>
+                            <br>
+                            <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Dear Insurance company..."></textarea>
+                        </div>
+                        <button type="submit" class="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </section>
+            <section id="map-canvas" class="map-canvas">
+            </section>
+        </main>
+
+        <footer>
+            <section class="footer-contact"></section>
+        </footer>
+
+        </div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        <script src="./assets/js/map.js"></script>
+    </body>
+</html>

@@ -1,0 +1,336 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700&family=Frank+Ruhl+Libre:wght@900&display=swap');
+
+/* Root */
+:root {
+    /* Colors */
+    --color-1: #ebebeb;
+    --color-2: #000000;
+    --color-3: #a9a19e;
+    --color-4: #fab131;
+    --color-5: #ffffff;
+    --color-6: #f17949;
+    --color-7: #363636;
+    --color-8: #c7ddea;
+    --color-9: #777574;
+    --color-10: #c4c4c4;
+
+    /* --font-15: 15px!important; */
+
+    /* Font family */
+    --font-frank: 'Frank Ruhl Libre', Arial, Helvetica, sans-serif;
+    --font-fira-sans: 'Fira Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Default Styles ************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--color-2);
+}
+
+body {
+    font-family: var(--font-fira-sans);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-frank);
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-3);
+}
+
+/* a:hover {
+    color: var(--second-color);
+} */
+
+li {
+    list-style: none;
+    /* cursor: pointer; */
+}
+
+.container {
+    /* background-color: var(--color-1); */
+    width: 100%;
+    padding: 0 14%;
+}
+
+/* ------------------------------------------------ */
+/* Header Start--------------------------------------- */
+.header-top {
+    height: 408px;
+    width: 100%;
+    background-color: var(--color-8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-top h2 {
+    margin-bottom: 3%;
+    width: 60%;
+    text-align: center;
+    /* background-color: #49c1f1; */
+}
+
+.header-top img {
+    position: absolute;
+    bottom: 16%;
+    right: 10%;
+}
+
+/* menu */
+.menu {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+    background-color: var(--color-5);
+}
+
+.menu ul {
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 18%;
+}
+
+.list {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: #000000 solid 5px; */
+}
+
+.active-link {
+    background-color: var(--color-5);
+}
+
+.active-link a {
+    color: var(--color-2) !important;
+}
+
+/* Header End----------------------------------------- */
+
+/* Main Start----------------------------------------- */
+/* contact-us  */
+.contact-us {
+    height: 544px;
+    width: 100%;
+    background-color: var(--color-3);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+.contact-us h2 {
+    color: var(--color-5);
+    width: 40%;
+    /* background-color: #f17949; */
+}
+
+.form {
+    width: 40%;
+    /* background-color: #49f173; */
+}
+
+.email-contant {
+    width: 100%;
+}
+label {
+    color: var(--color-5);
+}
+
+.email-contant input {
+    color: var(--color-5);
+    margin-top: 0.4rem;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.massage-contant {
+    /* background-color: #0e0c9e; */
+    margin-top: 1.4rem;
+}
+
+.massage-contant textarea {
+    width: 100%;
+    margin-top: 0.4rem;
+    padding: 20px;
+    height: 166px;
+}
+
+.submit {
+    margin-top: 2rem;
+    background-color: var(--color-5);
+    padding: 10px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* map-content  */
+.map-canvas {
+    height: 507px;
+    width: 100%;
+    background-color: #524c4a;
+    position: relative;
+}
+
+/* .address-contant{
+    width: 323px;
+    height: 206px;
+    background-color: var(--color-4);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+
+.address-contant h3{
+    color: var(--color-1);
+    font-size: 45px;
+}
+.address-contant address{
+    color: var(--color-1);
+    line-height: 1.6rem;
+} */
+
+/* Main End----------------------------------------- */
+
+/* Footer Start----------------------------------------- */
+.footer-contact {
+    height: 340px;
+    width: 100%;
+    background-color: var(--color-9);
+}
+/* Footer End----------------------------------------- */
+
+/* Desktop First *****************************************************/
+/* Desktops (1400px and down) */
+@media (max-width: 1400px) {
+    .container {
+        /* background-color: var(--color-1); */
+        padding: 0 12%;
+    }
+}
+
+/* Desktops (1200px and down) */
+@media (max-width: 1200px) {
+    .container {
+        /* background-color: var(--color-1); */
+        padding: 0 6%;
+    }
+}
+
+/* Desktops (992px and down) */
+@media (max-width: 992px) {
+    .container {
+        /* background-color: var(--color-1); */
+        padding: 0;
+    }
+
+    /* Main Start----------------------------------------- */
+    /* contact-us  */
+    .contact-us h2 {
+        width: 45%;
+        /* background-color: #f17949; */
+    }
+}
+
+/* Tablets (768px and down) */
+@media (max-width: 768px) {
+    .header-top h2 {
+        text-align: left;
+        margin-left: -20%;
+    }
+
+    /* contact-us  */
+    .contact-us h2 {
+        width: 50%;
+        /* background-color: #f17949; */
+    }
+}
+
+/* Mobile (576px and down) */
+@media (max-width: 576px) {
+    /* Header Start--------------------------------------- */
+    .header-top h2 {
+        margin-bottom: 30%;
+        width: 60%;
+        margin-left: -27%;
+    }
+    .header-top img {
+        bottom: 22%;
+    }
+
+    .menu ul {
+        /* background-color: brown; */
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 ;
+    }
+
+    .active-link {
+        background-color: #f17949;
+        background-color: var(--color-3);
+    }
+
+    /* Main Start----------------------------------------- */
+    /* contact-us  */
+    .contact-us {
+        flex-direction: column;
+        padding: 10% 4%;
+    }
+
+    .contact-us h2 {
+        color: var(--color-5);
+        width: 100%;
+        /* background-color: #f17949; */
+        margin-bottom: 5%;
+    }
+    
+    .form {
+        width: 100%;
+        /* background-color: #49f173; */
+    }
+}
+
+
+@media (max-width: 425px) {
+    /* Header Start--------------------------------------- */
+    .header-top h2 {
+        margin-bottom: 40%;
+        width: 50%;
+        margin-left: -40%;
+    }
+}
+@media (max-width: 320px) {
+    /* Header Start--------------------------------------- */
+    .header-top h2 {
+        margin-bottom: 58%;
+    }
+}
